@@ -1,0 +1,16 @@
+server:
+  port: 8283
+spring:
+  application:
+    name: CONFIG-SERVER
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8762/eureka
+  instance:
+    hostname: localhost
+
+

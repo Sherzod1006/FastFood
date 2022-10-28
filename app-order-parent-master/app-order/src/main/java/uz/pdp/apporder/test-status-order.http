@@ -1,0 +1,31 @@
+### transfer  accept
+GET http://localhost:8181/api/order/v1/order/transfer-accepted/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY1MDI3OTEzLCJleHAiOjE2NjUwOTk5MTN9.bPLb5TTHyrt2pWsWQAaU4qAd6iHD6cOAwkEzABzCeA2gUj-2oJTVb-B4_qMv0lPaU3EyIYBKBiWMOuTsoq-A6Q
+
+### transfer cooking
+GET http://localhost:8081/api/order/v1/order/transfer-cooking/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY1MDI3OTEzLCJleHAiOjE2NjUwOTk5MTN9.bPLb5TTHyrt2pWsWQAaU4qAd6iHD6cOAwkEzABzCeA2gUj-2oJTVb-B4_qMv0lPaU3EyIYBKBiWMOuTsoq-A6Q
+
+### transfer ready
+GET http://localhost:8081/api/order/v1/order/transfer-ready/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY1MDI3OTEzLCJleHAiOjE2NjUwOTk5MTN9.bPLb5TTHyrt2pWsWQAaU4qAd6iHD6cOAwkEzABzCeA2gUj-2oJTVb-B4_qMv0lPaU3EyIYBKBiWMOuTsoq-A6Q
+
+### transfer sent
+GET http://localhost:8081/api/order/v1/order/transfer-sent/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY1MDI3OTEzLCJleHAiOjE2NjUwOTk5MTN9.bPLb5TTHyrt2pWsWQAaU4qAd6iHD6cOAwkEzABzCeA2gUj-2oJTVb-B4_qMv0lPaU3EyIYBKBiWMOuTsoq-A6Q
+
+### transfer finish
+GET http://localhost:8081/api/order/v1/order/transfer-finished/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY1MDI3OTEzLCJleHAiOjE2NjUwOTk5MTN9.bPLb5TTHyrt2pWsWQAaU4qAd6iHD6cOAwkEzABzCeA2gUj-2oJTVb-B4_qMv0lPaU3EyIYBKBiWMOuTsoq-A6Q
+
+### transfer reject
+GET http://localhost:8081/api/order/v1/order/transfer-rejected/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY1MDI3OTEzLCJleHAiOjE2NjUwOTk5MTN9.bPLb5TTHyrt2pWsWQAaU4qAd6iHD6cOAwkEzABzCeA2gUj-2oJTVb-B4_qMv0lPaU3EyIYBKBiWMOuTsoq-A6Q
+
+

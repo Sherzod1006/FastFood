@@ -1,0 +1,30 @@
+server:
+  port: 8087
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/auth_db
+    username: postgres
+    password: root123
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        enable_lazy_load_no_trans: true
+
+jwt:
+  access:
+    key: tHaX54Hwk^YMzKd@e@p7#70@!@*6d7676K8C1%T&hBnrzgqK28o
+    expiration-time: 720000
+  refresh:
+    key: tHaX54Hwk^Ydfd()(+__$$%#%70OZ()BK8C1%T&hBnrzgqK287
+    expiration-time: 60480000
+
+app:
+  admin:
+    phoneNumber: +998930850236
+    password: root123
+
+  defaultPassword: ketmon123

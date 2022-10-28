@@ -1,0 +1,50 @@
+POST localhost:8080/api/order/v1/order/save-mob-app
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY0OTUwOTg2LCJleHAiOjE2NjUwMjI5ODZ9.KdDUir8xBMbt5R-_hH0R1E6zXKYyVG3VSkWTI-AXJRN0qtrqznGWNDMmeunOdkO_IsaGSLfsojiWvCCy3yx_6w
+
+{
+  "orderProductsDTOList": [
+    {
+      "productId": 1,
+      "quantity": 33
+    },
+    {
+      "productId": 2,
+      "quantity": 3
+    },
+    {
+      "productId": 2,
+      "quantity": 30
+    }
+  ],
+  "addressDTO": {
+    "lat": 80.59,
+    "lng": 40.57,
+    "address": "test_9af5064ea73e",
+    "extraAddress": "test_806faa177a26"
+  },
+  "paymentType": "CASH"
+}
+
+###
+POST http://localhost:8180/api/v1/order/save-web
+Content-Type: application/json
+
+
+###
+GET http://localhost/api/order/v1/order/list-by-status/DRAFT
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY0OTUwOTg2LCJleHAiOjE2NjUwMjI5ODZ9.KdDUir8xBMbt5R-_hH0R1E6zXKYyVG3VSkWTI-AXJRN0qtrqznGWNDMmeunOdkO_IsaGSLfsojiWvCCy3yx_6w
+
+
+###
+GET http://localhost/api/order/v1/order/order-status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY0OTUwOTg2LCJleHAiOjE2NjUwMjI5ODZ9.KdDUir8xBMbt5R-_hH0R1E6zXKYyVG3VSkWTI-AXJRN0qtrqznGWNDMmeunOdkO_IsaGSLfsojiWvCCy3yx_6w
+
+
+###
+POST localhost/api/order/v1/order/
+Content-Type: application/json
+
+{}

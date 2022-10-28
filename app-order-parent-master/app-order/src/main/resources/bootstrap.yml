@@ -1,0 +1,12 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,env
+spring:
+  application:
+    name: GATEWAY
+  cloud:
+    config:
+      uri: http://localhost:8283
+      name: ketmon

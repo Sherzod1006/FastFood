@@ -1,0 +1,30 @@
+POST http://localhost/api/order/v1/order/statistics-order-chart
+Content-Type: application/json
+
+{
+  "tillDate": "2019-04-01",
+  "fromDate": "2019-01-05",
+  "orderStatusEnum": "REJECTED"
+}
+
+###
+
+POST http://localhost/apiorder/v1/order/statistics-payment
+Content-Type: application/json
+
+{
+  "tillDate": "2019-04-01",
+  "fromDate": "2019-01-05",
+  "branchId": "1"
+}
+
+####
+
+POST http://54.209.172.146:8090/api/auth/sign-in
+Content-Type: application/json
+
+{
+  "email": "admin@codingbat",
+  "password": "root123"
+}
+

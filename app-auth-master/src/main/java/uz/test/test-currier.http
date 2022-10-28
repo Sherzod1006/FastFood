@@ -1,0 +1,13 @@
+POST http://localhost:8090/api/currier/add
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY0NzgwODMxLCJleHAiOjE2NjQ4NTI4MzF9._Pc1Rb1r-mlDi2nvrKWKNREgungEhPAjLk5sAmbtROx4Vr4N4PiKxWnYlk3a9RhGIvCOn4YJfVujky8HALnfFQ
+
+
+{
+  "birthDate": "2013-09-30",
+  "firstName": "test_f71341948a79",
+  "lastName": "test_1684fb7f4a3e",
+  "carNumber": "test_70edb9ab606d",
+  "driverLicense": "test_e6cc0dda03ea",
+  "phoneNumber": "98989898989"
+}

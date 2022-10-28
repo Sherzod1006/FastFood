@@ -1,0 +1,32 @@
+###
+POST http://localhost:8090/api/auth/v1/role
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY1NDg1NjkwLCJleHAiOjE2NjU1NTc2OTB9.8vH_GdAMXUhqEmJaHrTgHsY9gtP_TJqiatL6cJrzUmi_-DJSO6JB38WxvfTu-Fqc9XAd7WRsnyTk0ifXjpiNSA
+Content-Type: application/json
+
+{
+  "name": "Manager",
+  "description": " content manager ",
+  "permissions": [
+    "ADD_ORDER",
+    "ADD_POSITION",
+    "LIST_CATEGORY"
+  ],
+  "pages": [
+    {
+      "page": "ORDER",
+      "priority": 1
+    },
+    {
+      "page": "POSITION",
+      "priority": 2
+    },
+    {
+      "page": "CATEGORY",
+      "priority": 3
+    }
+  ]
+}
+
+###
+GET http://localhost:8090/api/auth/v1/user/me
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY1NTA1ODgyLCJleHAiOjE2NjU1Nzc4ODJ9.wWpRDT83lKcNZuMalpdQzd2bK5A370TQDTcAMLRilFg6ZjwbDTp0deJBTK87GVgTNBl9p4FTLB2blZ19IwqDQw

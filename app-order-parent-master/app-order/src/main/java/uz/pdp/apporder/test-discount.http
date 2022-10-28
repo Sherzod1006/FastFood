@@ -1,0 +1,9 @@
+POST http://localhost//api/order/v1/discount/add
+Content-Type: application/json
+
+{
+  "productId": 1,
+  "discount": 25.31,
+  "startDate": 68,
+  "endDate": 84
+}

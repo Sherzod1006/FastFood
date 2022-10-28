@@ -1,0 +1,24 @@
+###
+POST http://localhost:8081/api/v1/order/statistics-list
+Content-Type: application/json
+
+{
+  "searching": {
+    "columns": [
+      "status_enum"
+    ],
+    "value": "FINISHED"
+  },
+  "sorting": [
+    {
+      "name": "test_942c041b5793",
+      "type": "ASC"
+    }
+  ],
+  "orderListDTO": {
+    "branchName": "test_8c8adfd3d56d",
+    "paymentType": "CLICK",
+    "orderStatusEnum": "ACCEPTED"
+  }
+}
+

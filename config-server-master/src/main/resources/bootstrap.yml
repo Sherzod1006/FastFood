@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sirojiddinEcma/fast-food-environment
+          clone-on-start: true
+#          default-label: main

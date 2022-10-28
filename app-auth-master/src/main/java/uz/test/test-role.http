@@ -1,0 +1,17 @@
+GET http://localhost/api/auth/v1/role/list
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY0NzgwODMxLCJleHAiOjE2NjQ4NTI4MzF9._Pc1Rb1r-mlDi2nvrKWKNREgungEhPAjLk5sAmbtROx4Vr4N4PiKxWnYlk3a9RhGIvCOn4YJfVujky8HALnfFQ
+
+###
+
+POST http://localhost/api/auth/v1/role
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY0NzgwODMxLCJleHAiOjE2NjQ4NTI4MzF9._Pc1Rb1r-mlDi2nvrKWKNREgungEhPAjLk5sAmbtROx4Vr4N4PiKxWnYlk3a9RhGIvCOn4YJfVujky8HALnfFQ
+
+
+{
+  "name": "Ketmon",
+  "description": "ketmon",
+  "permissions": [
+    "ADD_ORDER"
+  ]
+}

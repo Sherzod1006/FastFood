@@ -1,0 +1,63 @@
+####
+#GET http://localhost/api/auth/v1/profile/read-profile
+#AUTHORIZATION:
+#
+###
+#POST http://localhost/api/order/v1/price-for-delivery/add
+#Content-Type: application/json
+#{
+#  "branch":{
+#    "id": 51,
+#    "name": "test_28b2fb6a3583",
+#    "address": {
+#      "id": 31,
+#      "lat": 3.72,
+#      "lon": 84.48,
+#      "city": "test_d965741acd04",
+#      "street": "test_cbedae21b798",
+#      "postalCode": 65
+#    },
+#    "standardDistance": 65.54,
+#    "standardDistancePrice": 38.91,
+#    "standardDistanceMorePrice": 79.22
+#  },
+#  "priceForPerKilometre": 98.28,
+#  "initialPrice": 0.97,
+#  "initialDistance": 50
+#}
+####
+#GET http://localhost/api/order/v1/price-for-delivery/list
+#
+####
+#GET http://localhost/api/order/v1/price-for-delivery/{{id}}
+#
+#
+####
+#DELETE http://localhost/api/order/v1/price-for-delivery/{{id}}
+#
+####
+#DELETE http://localhost/api/order/v1/price-for-delivery/delete-all
+#
+####
+#PUT http://localhost/api/order/v1/price-for-delivery/edit/{{id}}
+#
+#{
+#  "branch": {
+#    "id": 56,
+#    "name": "test_5d09819013b1",
+#    "address": {
+#      "id": 44,
+#      "lat": 63.45,
+#      "lon": 20.12,
+#      "city": "test_42879ec8d556",
+#      "street": "test_cc8792a534df",
+#      "postalCode": 85
+#    },
+#    "standardDistance": 43.75,
+#    "standardDistancePrice": 98.43,
+#    "standardDistanceMorePrice": 70.45
+#  },
+#  "priceForPerKilometre": 78.60,
+#  "initialPrice": 48.71,
+#  "initialDistance": 11
+#}

@@ -1,0 +1,11 @@
+POST http://localhost/api/auth/v1/auth/sign-in
+Content-Type: application/json
+
+{
+  "phoneNumber": "+998930850236",
+  "password": "root123"
+}
+
+###
+GET http://localhost/api/auth/v1/user/me
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY0ODY1Nzc3LCJleHAiOjE2NjQ5Mzc3Nzd9.Gw4_M4ilmJHRFtxINnw2b8zKOKc5uqCphL2J7PyJzruyiyJZouceo9WUhI9J6hacW0jXZ8pl1rMY8t7tGYrTFQ

@@ -1,0 +1,21 @@
+POST http://localhost:8090/api/client/filter-list?page=0&size=10
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY0NzkyNjA3LCJleHAiOjE2NjQ4NjQ2MDd9.iViD8rE87Z9vxTOHs6dxwwkg51N5gZhlbdMYPZW7ox8myu8x5QurF49HeGi2jS4N1EX-ZiuboEp-_LAgITDgJA
+
+{
+  "filtering": {
+    "filterType": "ACTIVE"
+  },
+  "searching": "2",
+  "sorting": [
+    {
+      "columnName": "ORDER_COUNT",
+      "type": "DESC"
+    },
+    {
+      "columnName": "ORDER_COUNT",
+      "type": "ASC"
+    }
+  ]
+}
+

@@ -1,0 +1,32 @@
+POST http://localhost/api/order/v1/category/add
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY1MDY1ODk1LCJleHAiOjE2NjUxMzc4OTV9.bSZu6FkjjijeneymCQlWoF4DxPKLw1P-qbahtMwLxhs7BCczoKj55gPgVxGmtm_tMchr7GQbRMkG2gOvUh_GkQ
+
+{
+  "nameUz": "lavash",
+  "nameRu": "lavash",
+  "parentCategory": null
+}
+
+###
+GET http://localhost/api/order/v1/category/1
+
+###
+PUT http://localhost:8081/api/categeory/1
+Content-Type: application/json
+Accept-Language: uz
+
+{
+  "id": 1,
+  "nameUz": "ichimliklar",
+  "nameRu": "drinks"
+}
+###
+DELETE http://localhost:8081/api/categeory/1
+
+###
+GET http://localhost/api/order/v1/categeory/list
+
+
+###
+GET https://api-maps.yandex.ru/2.1?apikey=30e833bb-c8ef-49da-a73c-0680d3cf958d&lang=ru_RU

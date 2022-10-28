@@ -1,0 +1,36 @@
+POST http://localhost/api/auth/v1/employee
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY0NzgwODMxLCJleHAiOjE2NjQ4NTI4MzF9._Pc1Rb1r-mlDi2nvrKWKNREgungEhPAjLk5sAmbtROx4Vr4N4PiKxWnYlk3a9RhGIvCOn4YJfVujky8HALnfFQ
+
+{
+  "firstName": "dhfkasjk",
+  "lastName": "nviadsk",
+  "phoneNumber": "+998946283096",
+  "roleId": 1
+}
+
+###
+GET http://localhost/api/auth/v1/employee/list
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY0NzgwODMxLCJleHAiOjE2NjQ4NTI4MzF9._Pc1Rb1r-mlDi2nvrKWKNREgungEhPAjLk5sAmbtROx4Vr4N4PiKxWnYlk3a9RhGIvCOn4YJfVujky8HALnfFQ
+
+###
+DELETE http://localhost/api/auth/v1/employee/cf9697bf-fa1d-463c-9934-920ce5418f6d
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY0NzgwODMxLCJleHAiOjE2NjQ4NTI4MzF9._Pc1Rb1r-mlDi2nvrKWKNREgungEhPAjLk5sAmbtROx4Vr4N4PiKxWnYlk3a9RhGIvCOn4YJfVujky8HALnfFQ
+
+
+###
+GET http://localhost/api/auth/v1/employee/9438f541-00c0-46b5-bedb-756b937fa633
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY0NzgwODMxLCJleHAiOjE2NjQ4NTI4MzF9._Pc1Rb1r-mlDi2nvrKWKNREgungEhPAjLk5sAmbtROx4Vr4N4PiKxWnYlk3a9RhGIvCOn4YJfVujky8HALnfFQ
+
+
+###
+PUT http://localhost/api/auth/v1/employee/c3fb465a-520b-43bd-ad4e-b91b541c865f
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIrOTk4OTMwODUwMjM2IiwiaWF0IjoxNjY0NzgwODMxLCJleHAiOjE2NjQ4NTI4MzF9._Pc1Rb1r-mlDi2nvrKWKNREgungEhPAjLk5sAmbtROx4Vr4N4PiKxWnYlk3a9RhGIvCOn4YJfVujky8HALnfFQ
+
+{
+  "firstName": "newEdit",
+  "lastName": "neew",
+  "phoneNumber": "+998881239123",
+  "roleId": 1
+}
